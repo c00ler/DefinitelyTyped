@@ -97,7 +97,7 @@ declare namespace Arborist {
         replaceRegistryHost: NonNullable<Options["replaceRegistryHost"]>;
         lockfileVersion: number | null;
     }
-    type SaveType = "dev" | "optional" | "prod" | "peerOptional" | "peer";
+    type SaveType = "dev" | "optional" | "prod" | "peerOptional" | "peer" | "workspace";
     interface BuildIdealTreeOptions {
         rm?: string[];
         add?: string[];
